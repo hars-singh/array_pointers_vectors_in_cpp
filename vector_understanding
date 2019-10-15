@@ -1,0 +1,15 @@
+#include <iostream>
+#include<vector>/*This headerfile must be used while implementing vector in cpp*/
+using namespace std;
+int main()
+{
+vector<int> B;/*This is how A vector is declared in the cppn with zero size*/ 
+vector<int> V(100,1);/*This is how a vector V is declared in the cpp with size 100 and each entry filled with constant value 1*/
+cout<<V[2]<<endl;/*printing second element in vector*/
+V.push_back(3);/*Push operation in vector*/
+cout<<B.size()<<endl;
+cout<<V.size()<<endl;
+V.pop_back();/*Pop operation in vector*/
+cout<<V.size()<<endl;
+return 0;
+}
