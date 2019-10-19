@@ -1,3 +1,4 @@
+/*Time complexity O(nlogn) in all the cases*/
 #include<iostream>
 using namespace std;
 void merge(int A[],int L,int M,int R)
